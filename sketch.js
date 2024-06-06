@@ -4,8 +4,8 @@ function setup() {
   }
   
   function draw() {
-    stroke("blue");
-    fill("red");
+    stroke("white");
+    fill("green");
     
     if(mouseIsPressed){ 
       rect(mouseX, mouseY, 20, 35);
